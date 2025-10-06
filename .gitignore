@@ -1,0 +1,29 @@
+# Node dependencies
+node_modules/
+
+# Build outputs
+build/
+dist/
+static/
+public_html/
+public/
+*.zip
+*.log
+
+# Environment files (never push secrets)
+.env
+.env.local
+.env.production
+.env.development
+
+# OS / Editor junk files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+logs/
